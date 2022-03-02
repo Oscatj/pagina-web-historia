@@ -1,0 +1,10 @@
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: dashed;
+    font-size: large;
+    height:fit-content;
+    border-color:transparent;
+    display: inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}

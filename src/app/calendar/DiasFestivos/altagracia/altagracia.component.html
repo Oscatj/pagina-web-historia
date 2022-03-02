@@ -1,0 +1,13 @@
+<a *ngFor="let actividad of calendarService.calendario">
+<mat-card class="example-card">
+    <mat-card-title-group>
+      <mat-card-title>{{actividad.nombre}}</mat-card-title>
+      <mat-card-subtitle>{{actividad.fecha}}</mat-card-subtitle>
+      <img mat-card-sm-image alt="{{actividad.foto}}" >
+    </mat-card-title-group>
+    <!--<mat-card-content>
+      {{longText}}
+    </mat-card-content>
+-->
+  </mat-card>
+</a>
