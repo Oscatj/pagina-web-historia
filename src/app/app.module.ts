@@ -6,8 +6,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule } from './calendar/calendar.module';
 import {MatIconModule} from '@angular/material/icon';
 
-
-
 @NgModule({
   declarations: [
     AppComponent

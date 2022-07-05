@@ -3,11 +3,15 @@
     padding: 0;
 }
 #section{
-    height: 50%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
     padding: 1em;
     float: left;
     background: rgb(236, 239, 247);
+}
+h2{
+    text-decoration: none;
+    font-size: 25px;
 }
 mat-grid-list{
     margin: 20px;
@@ -15,9 +19,11 @@ mat-grid-list{
     color:rgb(19, 26, 90);
     font-weight:2000;
 }
+mat-card:hover{
+    background-color: rgba(13, 58, 194, 0.073);
+}
 #aside{
     height: 100%;
     width: 20%;
     float: right;
-    background: rgb(132, 0, 255);
 }

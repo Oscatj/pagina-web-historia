@@ -34,6 +34,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { DescriptionComponent } from './description/description.component';
+import { FabulasComponent } from './fabulas/fabulas.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { DescriptionComponent } from './description/description.component';
     AsideComponent,
     FooterComponent,
     DescriptionComponent,
+    FabulasComponent,
   ],
   imports: [
     CommonModule, 

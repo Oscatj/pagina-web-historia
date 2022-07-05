@@ -14,7 +14,9 @@
                         <mat-grid-list cols="2" rowHeight="2:1" >
                         <mat-card class="example-card">
                             <mat-card-title-group>
-                              <mat-card-title>{{actividad.nombre}}</mat-card-title>
+                              <mat-card-title>
+                                <h2>{{actividad.nombre}}</h2>
+                                </mat-card-title>
                               <mat-card-subtitle>{{actividad.fecha}}</mat-card-subtitle>
                               <img mat-card-sm-image src="{{actividad.foto}}" >
                             </mat-card-title-group>
@@ -26,15 +28,14 @@
                         </mat-grid-list>
                         </a>
                 </mat-grid-list>
-                  
                 </div>
                 <app-aside></app-aside>
             </div>
         </mat-tab>
-        <mat-tab label="Historias seculares">
-            
+        <mat-tab label="Fabulas dominicanas">
+            <app-fabulas></app-fabulas>
         </mat-tab>
-        <mat-tab label="Historias de nuestros heroes">
+        <mat-tab label="Nuestros inicios">
             <app-description></app-description>
         </mat-tab>
       </mat-tab-group>
